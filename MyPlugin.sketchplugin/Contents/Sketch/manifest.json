@@ -1,0 +1,32 @@
+{
+    "name" : "My Plugin",
+    "identifier" : "my.plugin",
+    "version" : "1.0",
+    "description" : "My First Sketch Plugin",
+    "authorEmail" : "gokulnath@qburst.com",
+    "author" : "Gokul Nath",
+
+    "commands" : [
+    {
+      "script" : "myScript.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift y",
+      "name" : "Get Page Names",
+      "identifier" : "my.plugin.pagenames"
+    },
+    {
+      "script" : "rotateArtboard.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift u",
+      "name" : "Rotate Artboard",
+      "identifier" : "my.plugin.rotateartboard"
+    },
+    {
+      "script" : "testProps.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift u",
+      "name" : "Test Properties",
+      "identifier" : "my.plugin.testprops"
+    }
+  ],
+}
